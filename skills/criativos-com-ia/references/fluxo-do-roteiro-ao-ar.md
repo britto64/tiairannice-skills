@@ -107,6 +107,21 @@ skill `roteiros-de-video`.
 | Reaproveitar um vídeo vencedor | Reenquadrar para outros formatos, trocar gancho e locução, publicar como variação |
 | Orgânico para TikTok | Roteiro → locução → vídeos da marca → montagem 9:16 → legenda → publicar |
 
+## Receita: anúncio de lousa explicando o produto
+
+Formato de topo de funil para educar sobre o mecanismo do produto, relatado por um gestor como o de maior tempo de
+exibição da conta (o que baixa o custo de alcance). Passo a passo:
+
+1. **Conceito**: um desenho que uma pessoa faria em 30 segundos explicando como o produto funciona.
+2. **Três imagens** com o conector de imagem: a lousa em branco, a lousa pela metade e a lousa completa.
+3. **Dois vídeos curtos** com um modelo de vídeo que aceite primeiro e último quadro: do branco à metade e da
+   metade à completa, com uma mão desenhando. Para mais variedade, peça três ângulos de câmera e envie os ângulos
+   como imagens de referência, para manter o cenário igual.
+4. **Roteiro de 30 segundos** pedido ao Claude a partir da imagem completa, na voz de um especialista explicando a
+   um público leigo (use a skill `roteiros-de-video`).
+5. **Locução** com voz de tom educativo (ver `voz-e-audio.md`).
+6. **Montagem** juntando os dois vídeos, a locução e as legendas (ver `edicao-de-video-com-ia.md`).
+
 ## Formatos de referência
 
 | Uso | Proporção | Medida usual |
