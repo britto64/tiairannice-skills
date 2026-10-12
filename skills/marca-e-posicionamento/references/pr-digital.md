@@ -66,6 +66,4 @@ Posso enviar a metodologia completa e os números em uma página, e [nome do por
 - E-mails frios para jornalistas e para pessoas em geral ficam sujeitos à LGPD: use contatos publicados para
   uso profissional, ofereça forma de descadastrar e não faça lista de transmissão.
 - Ao usar dados de clientes, **anonimize** e nunca exponha informação pessoal.
-- Skills e modelos de PR distribuídos por terceiros: leia antes de instalar (ver a skill `criativos-com-ia`,
-  seção de ferramentas de terceiros).
 - Resultado (matéria publicada, link) não é garantido: o método aumenta as chances, não as assegura.

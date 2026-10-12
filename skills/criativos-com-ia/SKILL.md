@@ -1,65 +1,71 @@
 ---
 name: criativos-com-ia
 description: >-
-  Produção de criativos e conteúdo com IA para negócios: gerar anúncios estáticos em lote a partir de referências
-  (inclusive Black Friday), editar vídeo com ajuda da IA (cortes, legendas, animação), clonar a própria voz para
-  locuções, transformar documentos em áudio, e montar um estúdio criativo com o Claude usando skills e conectores
-  (pesquisa de concorrentes, escrita na sua voz, geração de imagem e vídeo). Use sempre que o usuário quiser
-  produzir anúncio, imagem, vídeo, narração ou arte com IA, ganhar tempo de produção, decidir quais ferramentas
-  ligar ao Claude ou subir criativos na conta de anúncios, mesmo sem citar nenhuma ferramenta.
+  Produz criativos de marketing de ponta a ponta com o Claude e seus conectores: pega o roteiro pronto, gera a
+  locução com a voz da marca (ElevenLabs), junta os vídeos da marca ou gera imagens e vídeos (Higgsfield), monta o
+  vídeo por código (Remotion), e sobe os anúncios na Meta ou entrega o vídeo pronto para o TikTok. Também gera lotes
+  de anúncios estáticos a partir de referências (Black Friday e outras datas), edita vídeo com IA e orienta quais
+  conectores ligar. Use sempre que o usuário quiser transformar um roteiro em vídeo ou anúncio, produzir imagem,
+  vídeo, narração ou arte com IA, subir criativos na Meta, ganhar tempo de produção ou montar seu estúdio criativo,
+  mesmo sem citar nenhuma ferramenta.
 ---
 
 # Criativos com IA
 
-Ajuda a produzir anúncios, vídeos e áudios com o Claude e ferramentas ligadas a ele, mais rápido e sem perder a
-identidade da marca. A ideia central: **a IA executa; o resultado depende do briefing e da revisão humana.** Quem
-briefa bem (marca, oferta exata, referências, formato) e revisa com cuidado ganha horas. Quem aceita o primeiro
-resultado publica erro.
+O Claude conduz a produção do roteiro até o anúncio no ar, usando os conectores ligados à conversa: voz, geração de
+imagem e vídeo, montagem de vídeo e publicação. A ideia central: **o resultado vem do briefing e da conferência de
+qualidade**; as ferramentas executam. Quem decide permissões, créditos e publicação são o app e os conectores, e a
+skill cuida de fazer bem o trabalho.
 
-Os arquivos em `references/` guardam o método de cada tipo de produção. Leia o certo antes de responder, em vez de
-resumir de memória.
+Os arquivos em `references/` guardam o método de cada etapa. Leia o certo antes de responder, em vez de resumir de
+memória.
 
-## Como trabalhar
+## Primeiro: veja o que está conectado
 
-1. **Entenda o que será produzido e para quê.** Anúncio estático, vídeo, locução ou montagem de estúdio? Qual
-   objetivo e onde será publicado? Se houver briefing da marca (a skill `gestor-de-marketing` o salva), use-o.
-2. **Garanta que há o que gerar.** Antes de produzir, confirme: a oferta exata (preço, prazo, condições), a
-   persona e a dor que o criativo toca (ver as skills `meta-ads` e `marca-e-posicionamento`), as referências
-   visuais, as cores, o logo e as fotos reais do produto. Sem isso, a IA inventa.
-3. **Leia o arquivo do tipo de produção** (tabela abaixo) e monte o pedido com o modelo dele.
-4. **Gere em pequeno lote, revise com a lista de conferência e só então escale.** Corrija pontos específicos em
-   vez de refazer tudo.
-5. **Encaminhe**: teste e verba na skill `meta-ads`; roteiros e ganchos na skill `roteiros-de-video`; plano geral na
-   skill `gestor-de-marketing`.
+Liste as ferramentas disponíveis na conversa (voz, geração de imagem e vídeo, Meta, publicação, ambiente de código)
+e monte o fluxo com elas. Se faltar algo, produza o que for possível (roteiro, prompts, textos, pacote de entrega) e
+diga em uma linha qual conector ligar para automatizar o resto. Veja `references/conectores-e-ferramentas.md`.
+
+## O fluxo: do roteiro ao ar
+
+1. **Roteiro de produção.** Quebre o roteiro (da skill `roteiros-de-video`) em cenas, com fala, imagem e texto na
+   tela. Se houver briefing da marca (skill `gestor-de-marketing`), use-o; peça só o que faltar.
+2. **Locução.** Gere a fala com a voz da marca no conector de voz, direto no chat, em trechos curtos.
+3. **Material visual.** Use os vídeos da marca que o usuário enviar e gere o que faltar (b-roll, produto em cena,
+   imagens de anúncio) com o conector de geração.
+4. **Montagem.** Junte locução, vídeos, legendas e elementos da marca por código (Remotion ou semelhante),
+   exportando os formatos necessários e assistindo ao resultado inteiro.
+5. **Pacote de entrega.** Arquivos por formato, textos (anúncio ou legenda), chamada para ação e variações de gancho.
+6. **Publicação.** Anúncios: suba na Meta pelo conector, seguindo o plano da skill `meta-ads`. Orgânico: publique
+   no TikTok pelo conector, se houver, ou entregue o arquivo e a legenda prontos.
+7. **Medir e repetir.** O criativo vencedor vira variações; o perdedor sai.
+
+O fluxo completo, com as tabelas e os modelos de cada etapa, está em `references/fluxo-do-roteiro-ao-ar.md`.
 
 ## Qual arquivo ler
 
 | Situação do usuário | Arquivo |
 |---|---|
-| Gerar vários anúncios de imagem; anúncios de Black Friday; subir criativos na conta; referências de concorrentes | `references/anuncios-estaticos-com-ia.md` |
+| Tem um roteiro e quer vídeo ou anúncio pronto e publicado; vídeos da marca para montar | `references/fluxo-do-roteiro-ao-ar.md` |
+| Gerar vários anúncios de imagem; anúncios de Black Friday; subir criativos na Meta | `references/anuncios-estaticos-com-ia.md` |
 | Cortar, legendar e montar vídeo; reduzir o tempo de edição | `references/edicao-de-video-com-ia.md` |
-| Locução sem regravar; clonar a própria voz; documento em áudio | `references/voz-clonada-e-audio.md` |
-| Quais ferramentas, skills e conectores ligar; escolher e instalar com segurança | `references/ferramentas-e-skills-para-claude.md` |
+| Locução da marca; clonar voz; documento em áudio; dublagem | `references/voz-e-audio.md` |
+| Quais conectores e ferramentas existem e o que cada um faz | `references/conectores-e-ferramentas.md` |
 
-## Princípios que valem sempre
+## Princípios
 
 - **Briefing antes de ferramenta.** O mesmo pedido detalhado serve em qualquer ferramenta; a ferramenta muda, o
   briefing não.
-- **Referências boas valem mais que prompts longos.** Mostre exemplos do que gosta; peça inspiração de layout, nunca
-  cópia.
-- **Revise tudo o que vai ao público**: produto fiel, texto sem erro em português, preço e prazo corretos,
-  promessas dentro das regras.
-- **Dê ao agente a menor autoridade necessária.** Crie em pausa, com limite de gasto, e ative você mesmo.
-- **Comece com uma peça, depois escale.** Um anúncio, um vídeo de 30 segundos, uma locução.
+- **Referências boas valem mais que prompts longos.** Mostre exemplos do que gosta e peça inspiração de layout.
+- **A duração do áudio comanda a montagem.** Gere a locução primeiro e corte as cenas para caber nela.
+- **Confira a qualidade do que sai:** produto fiel, texto sem erro em português, preço e prazo corretos, legendas
+  na posição certa. Corrija pontos específicos em vez de refazer tudo.
+- **Uma peça primeiro, depois o lote.** Um anúncio, um vídeo de 30 segundos, uma locução; ao acertar o padrão,
+  escale.
+- **Variações são a regra.** Cada peça boa vira 3 versões de gancho para testar (ver a skill `meta-ads`).
 
-## Cuidados
+## Notas
 
-- **Skills e conectores de terceiros são código de terceiros.** Leia antes de instalar, dê acesso mínimo e nunca
-  cole chaves de acesso em conversas ou repositórios. Detalhes em `references/ferramentas-e-skills-para-claude.md`.
-- **Acesso de escrita à conta de anúncios** pode gastar dinheiro. Exija pausa, revisão humana e teto de gasto.
-- **Voz e imagem de pessoas**: só use com autorização por escrito; não simule falas nem depoimentos falsos.
-- **Direitos**: música, fontes, imagens e referências com licença adequada; inspiração não é cópia.
-- **Resultados citados** (faturamento com anúncios de IA, tempo de edição, custo por imagem) são relatos de
-  criadores, em geral de quem também vende as ferramentas. Não os prometa ao usuário.
-- **Preços, planos e nomes de ferramentas mudam rápido.** Esta skill foi montada de vídeos de out/2026; confirme
-  o que existe hoje na conta do usuário.
+- Resultados citados nas referências (faturamento com anúncios de IA, tempo de edição, custo por imagem) são relatos
+  de criadores, que em geral também divulgam as ferramentas. Use como ordem de grandeza.
+- Nomes, planos e funções das ferramentas mudam rápido. Esta skill foi montada de vídeos de out/2026.
