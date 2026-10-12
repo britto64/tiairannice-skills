@@ -4,10 +4,10 @@ description: >-
   Posicionamento, identidade e oferta de marca para negócios: define quem é a marca, para quem fala, que
   transformação entrega, tom de voz e estética; revisa a consistência entre perfil, embalagem e atendimento;
   descobre por que o cliente não compartilha nem compra; monta ou melhora a oferta; planeja conteúdo que aquece e
-  vende (momentos de clareza, venda por diagnóstico); estrutura pré-lançamento com sorteio de prêmio real; e orienta
-  parcerias com criadores. Use sempre que o usuário falar de marca, posicionamento, identidade visual, diferencial,
+  vende (momentos de clareza, venda por diagnóstico); estrutura pré-lançamento com sorteio de prêmio real; planeja
+  PR digital com dados próprios (pauta, pitch para imprensa); e orienta parcerias com criadores. Use sempre que o usuário falar de marca, posicionamento, identidade visual, diferencial,
   concorrente, público ou persona, oferta, proposta de valor, tom de voz, "por que não vendo", "por que ninguém
-  compartilha", lançamento ou influenciadores, mesmo sem usar essas palavras.
+  compartilha", lançamento, imprensa, assessoria ou influenciadores, mesmo sem usar essas palavras.
 ---
 
 # Marca e posicionamento
@@ -42,6 +42,7 @@ vez de resumir de memória: o valor está nos passos, fórmulas e exemplos de l�
 | Ninguém compartilha ou indica; não sabe o que dizer ao público; marca pessoal | `references/psicologia-do-cliente.md` |
 | Vende pouco apesar do esforço; montar ou revisar oferta; lançamento ou sorteio | `references/oferta-e-jornada-de-compra.md` |
 | Posta "conteúdo de valor" e não vende; conteúdo igual ao dos concorrentes | `references/conteudo-que-aquece-e-vende.md` |
+| Aparecer na imprensa ou em blogs; pauta, pitch e lista de jornalistas | `references/pr-digital.md` |
 | Contratar criadores ou negociar com marcas | `references/parcerias-com-criadores.md` |
 
 ## Formato do resumo da marca
