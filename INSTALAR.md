@@ -2,11 +2,20 @@
 
 Se o usuário enviou o link deste repositório e pediu para instalar as skills, siga estes passos.
 
+## Endereços diretos dos pacotes
+
+Repositório: https://github.com/britto64/tiairannice-skills
+
+- https://raw.githubusercontent.com/britto64/tiairannice-skills/main/dist/gestor-de-marketing.skill
+- https://raw.githubusercontent.com/britto64/tiairannice-skills/main/dist/marca-e-posicionamento.skill
+- https://raw.githubusercontent.com/britto64/tiairannice-skills/main/dist/meta-ads.skill
+- https://raw.githubusercontent.com/britto64/tiairannice-skills/main/dist/roteiros-de-video.skill
+- https://raw.githubusercontent.com/britto64/tiairannice-skills/main/dist/criativos-com-ia.skill
+
 ## 1. Pegue os pacotes
 
 Cada skill pronta tem um pacote `dist/<nome>.skill` (um zip). Baixe todos os `.skill` da pasta `dist/` deste
-repositório, usando o mesmo endereço do link que o usuário enviou (por exemplo, o arquivo bruto de cada pacote
-no GitHub).
+repositório, usando os endereços diretos acima (ou, se o link recebido for de outro repositório, o mesmo caminho nele).
 
 - Se `dist/` estiver vazio, as skills ainda estão em construção: avise o usuário e não instale nada.
 - Se não conseguir baixar pelo ambiente (sem acesso à internet), peça ao usuário para baixar os `.skill` pela

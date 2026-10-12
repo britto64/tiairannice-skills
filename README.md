@@ -21,7 +21,8 @@ Instale as cinco juntas: a `gestor-de-marketing` conta com as outras quatro para
 
 ## Como instalar
 
-Envie o link deste repositório para o Claude e peça para instalar. Ele segue o [INSTALAR.md](INSTALAR.md).
+Envie o link deste repositório (https://github.com/britto64/tiairannice-skills) para o Claude e peça para
+instalar. Ele segue o [INSTALAR.md](INSTALAR.md).
 
 Se preferir fazer à mão: baixe os arquivos `.skill` da pasta [`dist/`](dist/) e envie cada um na área de
 Skills das configurações do app do Claude.
