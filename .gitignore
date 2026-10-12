@@ -1,0 +1,8 @@
+# Material de trabalho local: plano, fichas de análise dos vídeos. Não vai para o GitHub.
+trabalho/
+
+# Lixo do sistema e do Python
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
