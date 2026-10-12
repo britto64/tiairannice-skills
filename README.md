@@ -4,7 +4,8 @@ Um conjunto de skills em português para o Claude administrar o marketing de um 
 "preciso planejar o mês de Black Friday" e ele faz perguntas sobre a marca, monta um plano completo e
 chama os especialistas para detalhar anúncios, públicos, criativos e roteiros de vídeo.
 
-> **Status:** em construção. Os pacotes em `dist/` só aparecem aqui quando a skill correspondente está pronta.
+> **Status:** as 5 skills estão prontas e os pacotes estão em `dist/`. O conteúdo foi montado em out/2026; datas e
+> opções das plataformas mudam, então confirme o que vale hoje.
 
 ## As skills
 
